@@ -1,0 +1,185 @@
+/*VALORES COMUNPOS PARA TODO TIPO DE PANTALLAS*/
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*MEDIA QUIERS-- AJUSTES PARA LOS DISTINTOS TIPOS DE PANTRALLAS*/
+
+/* Estilos para pantallas más normales */
+@media screen and (min-width: 600px) {
+    header {
+        background-color: white;
+        height: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: dotted;
+        border-color: red;
+        border-radius: 5px;
+    }
+
+    nav {
+        display: flex;
+        height: 10px;
+        justify-content: center;
+        background-color: white;
+        padding: 5px;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+
+    section {
+        width: 70%;
+        margin-top: 5%;
+        margin: 5% auto;
+        margin-bottom: auto;
+        border: #333;
+        border-radius: 5px;
+        border-style: solid;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: -1%;
+        order: -1; /* Mueve la imagen a la izquierda en dispositivos pequeños */
+        border-style: solid;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5%;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer div {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+/*Estilos para moviles*/
+@media screen and (max-width:600px) {
+    header {
+        background-color: white;
+        height: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-style: dotted;
+        border-color: red;
+        border-radius: 5px;
+    }
+
+    nav {
+        display: flex;
+        height: auto;
+        justify-content: center;
+        background-color: white;
+        padding: 10px;
+        margin: 2% 5%;
+        margin-top: 0%;
+    }
+
+    nav a {
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        font-size: medium;
+    }
+
+    section {
+        width: 90%;
+        margin: 5% auto;
+        border: #333;
+        border-radius: 5px;
+        border-style: solid;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border-style: solid;
+
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin: 5% 0;
+    }
+
+    footer div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+    }
+
+}
