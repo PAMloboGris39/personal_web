@@ -12,6 +12,25 @@ export default function Home() {
         </a>
       </section>
 
+
+      {/* About Me Section */}
+      <section id="about" className="min-h-screen bg-gray-100 p-8 text-center">
+        <h2 className="text-4xl font-bold">About Me</h2>
+        <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+          I'm a 21-year-old Software Engineering student at Universitat Oberta de Catalunya,
+          also pursuing a Ciclo Formativo de Grado Superior in Web Development at CPIFP Los Enlaces in Zaragoza.
+          Passionate about technology, travel, and continuous learning.
+        </p>
+        <div className="mt-6">
+          <h3 className="text-2xl font-semibold">Skills</h3>
+          <ul className="mt-3 text-gray-600">
+            <li>Java, SQL, Python, Git</li>
+            <li>Sociable, Adaptable, Eager to Learn</li>
+            <li>Spanish (Native), English (Fluent)</li>
+          </ul>
+        </div>
+      </section>
+
       {/* Projects Section */}
       <section id="projects" className="min-h-screen bg-white p-8 text-center">
         <h2 className="text-4xl font-bold">Projects</h2>
@@ -23,25 +42,6 @@ export default function Home() {
             <a href="#" className="mt-3 text-blue-600 hover:text-blue-700">View Project</a>
           </div>
           <p className="text-gray-500 italic">More projects coming soon...</p>
-        </div>
-      </section>
-
-      {/* About Me Section */}
-      <section id="about" className="min-h-screen bg-gray-100 p-8 text-center">
-        <h2 className="text-4xl font-bold">About Me</h2>
-        <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-          I'm a 20-year-old Software Engineering student at Universitat Oberta de Catalunya,
-          also pursuing a Higher Vocational Training in Web Development at CPIFP Los Enlaces in Zaragoza.
-          Passionate about technology, travel, and continuous learning.
-        </p>
-        <div className="mt-6">
-          <h3 className="text-2xl font-semibold">Skills</h3>
-          <ul className="mt-3 text-gray-600">
-            <li>JavaScript, HTML, CSS</li>
-            <li>React, Next.js, Tailwind CSS</li>
-            <li>Sociable, Adaptable, Eager to Learn</li>
-            <li>Spanish (Native), English (Fluent)</li>
-          </ul>
         </div>
       </section>
 
